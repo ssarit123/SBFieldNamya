@@ -1,0 +1,16 @@
+PODS:
+  - CustomTextField (0.1.0)
+
+DEPENDENCIES:
+  - CustomTextField (from `../`)
+
+EXTERNAL SOURCES:
+  CustomTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomTextField: 6249d5bb4eca6ffcc11b65d4e9f6889565989da7
+
+PODFILE CHECKSUM: 113111e6fc5fe088324aa85fecd16dad57f38bbc
+
+COCOAPODS: 1.11.3

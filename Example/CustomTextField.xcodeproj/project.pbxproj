@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		040F1D3DCB119193C33EC63B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		040F1D3DCB119193C33EC63B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1CC2843269B38D3849848DEF /* Pods_CustomTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EF7F5B3F797D64D1B8CE1BF /* CustomTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomTextField.podspec; path = ../CustomTextField.podspec; sourceTree = "<group>"; };
+		2EF7F5B3F797D64D1B8CE1BF /* CustomTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomTextField.podspec; path = ../CustomTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F7C7D21A68DC474615EAC6A /* Pods-CustomTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CustomTextField_Tests/Pods-CustomTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58F0630D3BEE62EBD98105D5 /* Pods-CustomTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomTextField_Example/Pods-CustomTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CustomTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A343C18634D75A6A89B9731B /* Pods-CustomTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomTextField_Example/Pods-CustomTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5F2C541A3DDE16020DA6BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E5F2C541A3DDE16020DA6BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F5CFB25F99CB21D10CE45AAD /* Pods-CustomTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-CustomTextField_Tests/Pods-CustomTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC359C2855DD5A87F3A8A68F /* Pods_CustomTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				3F7C7D21A68DC474615EAC6A /* Pods-CustomTextField_Tests.debug.xcconfig */,
 				F5CFB25F99CB21D10CE45AAD /* Pods-CustomTextField_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

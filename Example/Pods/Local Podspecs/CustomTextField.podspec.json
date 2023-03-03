@@ -1,0 +1,22 @@
+{
+  "name": "CustomTextField",
+  "version": "0.1.0",
+  "summary": "A short description of CustomTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sarit bahuguna/CustomTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sarit bahuguna": "saritbahuguna74@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sarit bahuguna/CustomTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CustomTextField/Classes/**/*"
+}
